@@ -8,6 +8,15 @@ body{
     color: #444444;
 }
 
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #444444;
+}
+
 
 .main_navbar{
    background: transparent;
@@ -217,13 +226,13 @@ body{
 }
 
 #call_To_Action p{
-    font-size: 120%;
+    font-size: 100%;
 }
 
 #call_To_Action button{
     padding: 0 50px;
-   height: 60px;
-   font-size: 110%;
+   height: 50px;
+   font-size: 100%;
    background: transparent;
    color: white;
    border: 2px solid white;
@@ -231,8 +240,40 @@ body{
    transition: 0.4s ease-in-out;
 }
 
+#call_To_Action button a{
+    text-decoration: none;
+    color: white;
+}
+
 #call_To_Action button:hover{
     background: #47b2e4;
     transition: 0.4s ease-in-out;
+    border: none;
 }
 
+#portfolio{
+    background: white;
+}
+
+#portfolio .h1{
+    color: #37517e;
+}
+
+#portfolio h5{
+    border-bottom: 2px solid #47b2e4;
+    width: 15%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#port_button:hover {
+    background: #47b2e4;
+    transition: 0.3s ease-in-out;
+    border-radius: 25px;
+}
+#port_button:hover #mk a{
+   
+    color: white;
+    transition: 0.3s ease-in-out;
+   
+}

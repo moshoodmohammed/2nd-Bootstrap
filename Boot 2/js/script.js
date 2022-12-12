@@ -31,3 +31,13 @@ function transparent()
 
  changebackground.setAttribute('class','navbar main_navbar navbar-expand-lg py-1 fixed-top navbar-dark');
 };
+
+window.addEventListener('load', () => {
+   AOS.init({
+     duration: 1000,
+     easing: "ease-in-out",
+     once: true,
+     mirror: false
+   });
+ });
+
