@@ -14,14 +14,14 @@ window.addEventListener('scroll',() =>
  }
 });
  
-if(document.body.scrollTop >= 200 || document.documentElement.scrollTop >=200);
+
 
 function black()
 {
 
  var changebackground = document.getElementById('main_navbar');
 
- changebackground.setAttribute('class','main_navbar active');
+ changebackground.setAttribute('class','navbar main_navbar navbar-expand-lg py-1 fixed-top navbar-dark active');
 };
 
 function transparent()
@@ -29,5 +29,5 @@ function transparent()
 
  var changebackground = document.getElementById('main_navbar');
 
- changebackground.setAttribute('class','main_navbar');
+ changebackground.setAttribute('class','navbar main_navbar navbar-expand-lg py-1 fixed-top navbar-dark');
 };

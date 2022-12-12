@@ -9,7 +9,11 @@ body{
 }
 
 
-#main_navbar{
+.main_navbar{
+   background: transparent;
+}
+
+.active{
     background: rgba(40, 58, 90, 0.9);
 }
 
