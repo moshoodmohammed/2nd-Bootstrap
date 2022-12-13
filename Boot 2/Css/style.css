@@ -278,23 +278,40 @@ a{
    
 }
 
-#port_images{
-   overflow: hidden;
-}
-#portaca{
-    margin-bottom: 30px;
-    
+#port_images_all{
+    display: flex;
 }
 
-#portaca img{
-    height: 100%;
+#port_images_app{
+    display: none;
 }
+
+#port_images_card{
+    display: none;
+}
+
+#port_images_web{
+    display: none;
+}
+
 #port_img{
     position: relative;
+    overflow: hidden;
 }
 #port_img:hover #port_info{
     opacity: 1;
-    transition: 0.3s ease-in-out;
+    transition: 0.6s ease-in-out;
+}
+
+#img_gangan{
+    transition: 0.6s ease-in-out;
+}
+
+#port_img:hover #img_gangan{
+    width: 100%;
+    height: 100%;
+   transform: scale(1.2);
+    transition: 0.6s ease-in-out;
 }
 #port_info{
     width: 100%;
@@ -305,7 +322,8 @@ a{
     color: white;
    bottom: 0px;
    opacity: 0;
-   transition: 0.3s ease-in-out;
+   transition: 0.6s ease-in-out;
+   z-index: 10;
 }
 
 #part_info h4{
