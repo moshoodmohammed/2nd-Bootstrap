@@ -1,4 +1,5 @@
 
+//Header Background
 var changebackground = document.getElementById('main_navbar');
 
 window.addEventListener('scroll',() =>
@@ -32,6 +33,7 @@ function transparent()
  changebackground.setAttribute('class','navbar main_navbar navbar-expand-lg py-1 fixed-top navbar-dark');
 };
 
+//Page Load
 window.addEventListener('load', () => {
    AOS.init({
      duration: 1000,
@@ -40,4 +42,31 @@ window.addEventListener('load', () => {
      mirror: false
    });
  });
+
+ //Back to top
+
+ var backtotop = document.getElementById('back_to_top');
+
+ window.addEventListener('scroll',() =>
+ { 
+   if(window.pageYOffset > 300)
+   {
+      active();
+   }
+   else{
+      notactive();
+   }
+ });
+
+ function active()
+ {
+   var backtotop = document.getElementById('back_to_top');
+   backtotop.setAttribute('class','back_to_top back_to_top_active');
+ };
+
+ function notactive()
+ {
+   var backtotop = document.getElementById('back_to_top');
+   backtotop.setAttribute('class','back_to_top');
+ };
 

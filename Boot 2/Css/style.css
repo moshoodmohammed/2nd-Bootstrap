@@ -87,8 +87,14 @@ a{
     border-radius: 30px;
 }
 
+#getstarted3:hover #mmm{
+    color: #47b2e4;
+    transition: 0.3s ease-in-out;
+}
+
 #mmm {
     font-size: 150%;
+    transition: 0.3s ease-in-out;
 }
 
 #clients{
@@ -347,3 +353,36 @@ a{
     color: #47b2e4;
     transition: 0.2s ease-in-out;
 }
+
+#footers{
+    background: #37517e;
+}
+
+#back_to_top{
+    position: absolute;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #47b2e4;
+    padding: 10px 15px;
+    border-radius: 100%;
+    color: white;
+    transition: 0.6s ease-in-out;
+}
+
+#back_to_top:hover{
+    background: #80cbee;
+    transition: 0.6s ease-in-out;
+}
+.back_to_top{
+    opacity: 0;
+    transition: 0.6s ease-in-out;
+}
+.back_to_top_active{
+    opacity: 1;
+    transition: 0.6s ease-in-out;
+}
+#back_to_top a{
+    color: white;
+}
+
