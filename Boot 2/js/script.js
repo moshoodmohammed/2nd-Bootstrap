@@ -15,8 +15,6 @@ window.addEventListener('scroll',() =>
  }
 });
  
-
-
 function black()
 {
 
@@ -44,7 +42,6 @@ window.addEventListener('load', () => {
  });
 
  //Back to top
-
  var backtotop = document.getElementById('back_to_top');
 
  window.addEventListener('scroll',() =>
@@ -60,13 +57,55 @@ window.addEventListener('load', () => {
 
  function active()
  {
-   var backtotop = document.getElementById('back_to_top');
    backtotop.setAttribute('class','back_to_top back_to_top_active');
  };
 
  function notactive()
  {
-   var backtotop = document.getElementById('back_to_top');
    backtotop.setAttribute('class','back_to_top');
  };
 
+ //portfolio
+
+ var port_images_all = document.getElementById('port_images_all');
+ var port_images_app = document.getElementById('port_images_app');
+ var port_images_card = document.getElementById('port_images_card');
+ var port_images_web = document.getElementById('port_images_web');
+ 
+
+ function buttonall()
+ {
+  port_images_all.setAttribute('id','port_images_all');
+  port_images_all.setAttribute('class','row  portfolio-container  port_images_active');
+  port_images_app.setAttribute('class','row  portfolio-container port_images');
+  port_images_web.setAttribute('class','row  portfolio-container port_images');
+  port_images_card.setAttribute('class','row  portfolio-container port_images');
+ }
+
+ function buttonapp()
+ {
+  port_images_all.setAttribute('id','port_images_none');
+  port_images_all.setAttribute('class','row  portfolio-container port_images');
+  port_images_app.setAttribute('class',' row  portfolio-container port_images_active');
+  port_images_web.setAttribute('class','row  portfolio-container port_images');
+  port_images_card.setAttribute('class','row  portfolio-container port_images');
+ }
+
+
+ function buttoncard()
+ {
+  port_images_all.setAttribute('id','port_images_none');
+  port_images_all.setAttribute('class','row  portfolio-container  port_images');
+  port_images_app.setAttribute('class','row  portfolio-container  port_images');
+  port_images_web.setAttribute('class','row  portfolio-container port_images');
+  port_images_card.setAttribute('class','row  portfolio-container port_images_active');
+ }
+
+ function buttonweb()
+ {
+  port_images_all.setAttribute('id','port_images_none');
+  port_images_all.setAttribute('class','row  portfolio-container port_images');
+  port_images_app.setAttribute('class','row  portfolio-container port_images');
+  port_images_web.setAttribute('class','row  portfolio-container port_images_active');
+  port_images_card.setAttribute('class','row  portfolio-container port_images');
+ }

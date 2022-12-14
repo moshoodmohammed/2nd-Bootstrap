@@ -96,12 +96,12 @@
     <section id="clients">
         <div class="container">
             <div class="row d-flex jusify-content-between py-4 align-items-center text-center" >
-                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pb-4 pb-lg-0"><img class="img-fluid " src="img/clients/client-1.png" alt=""></div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pb-4 pb-lg-0"><img class="img-fluid  " src="img/clients/client-2.png" alt=""></div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pb-4 pb-lg-0"><img class="img-fluid  " src="img/clients/client-3.png" alt=""></div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pb-4 pb-lg-0"><img class="img-fluid  " src="img/clients/client-4.png" alt=""></div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pb-4 pb-lg-0"><img class="img-fluid  " src="img/clients/client-5.png" alt=""></div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pb-4 pb-lg-0"><img class="img-fluid  " src="img/clients/client-6.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pb-4 pb-lg-0"><img class="img-flui" src="img/clients/client-1.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pb-4 pb-lg-0"><img class="img-fluid" src="img/clients/client-2.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pb-4 pb-lg-0"><img class="img-fluid" src="img/clients/client-3.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pb-4 pb-lg-0"><img class="img-fluid" src="img/clients/client-4.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pb-4 pb-lg-0"><img class="img-fluid" src="img/clients/client-5.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pb-4 pb-lg-0"><img class="img-fluid" src="img/clients/client-6.png" alt=""></div>
             </div>
         </div>
     </section>
@@ -313,27 +313,35 @@
             <ul id="portfolio-flters" class="d-flex justify-content-center" >
                 <li class="px-3 py-2  mx-3" id="port_button">
                     <div id="mk">
-                        <a href="">All</a>
+                        <button type="button" name="all" onclick="buttonall()">
+                            All
+                        </button>
                     </div>
                 </li>
                 <li class="px-3 py-2 mx-3" id="port_button">
                     <div id="mk">
-                        <a href="">App</a>
+                        <button type="button" name="app" onclick="buttonapp()">
+                            App
+                        </button>
                     </div>
                 </li>
                 <li class="px-3 py-2 mx-3" id="port_button">
                     <div id="mk">
-                        <a href="">Card</a>
+                        <button type="button" name="card" onclick="buttoncard()">
+                            Card
+                        </button>
                     </div>
                 </li>
                 <li class="px-3 py-2 mx-3" id="port_button">
                     <div id="mk">
-                        <a href="">Web</a>
+                        <button type="button" name="web" onclick="buttonweb()">
+                            Web
+                        </button>
                     </div>
                 </li>
             </ul>
 
-            <div class="row  portfolio-container" id="port_images_all">
+            <div class="row  portfolio-container port_images" id="port_images_all">
 
                 <div  class="col-lg-4 col-md-6 portfolio-item">
                     <!--Img1-->
@@ -502,7 +510,7 @@
 
             </div>
 
-            <div class="row portfolio-container" id="port_images_app">
+            <div class="row portfolio-container port_images" id="port_images_app">
                 <div  class="col-lg-4 col-md-6 portfolio-item">
                     <!--Img1-->
                     <div id="port_img"  class="mb-4">
@@ -561,7 +569,7 @@
                 </div>
             </div>
 
-            <div class="row portfolio-container" id="port_images_card">
+            <div class="row portfolio-container port_images" id="port_images_card">
                 <div  class="col-lg-4 col-md-6 portfolio-item">
                     <!--Img4-->
                     <div id="port_img"  class="mb-4">
@@ -620,7 +628,7 @@
                 </div>
             </div>
 
-            <div class="row portfolio-container" id="port_images_web">
+            <div class="row portfolio-container port_images" id="port_images_web">
                 <div  class="col-lg-4 col-md-6 portfolio-item">
                     <!--Img2-->
                     <div id="port_img"  class="mb-4">
