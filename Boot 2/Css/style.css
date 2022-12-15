@@ -478,3 +478,110 @@ a{
     background: #47b2e4;
     transition: 0.2s ease-in-out;
 }
+
+#pricing .h1{
+    color: #37517e;
+}
+
+#pricing{
+    background: white;
+}
+
+#pricing h5{
+    border-bottom: 2px solid #47b2e4;
+    width: 15%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#prices{
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+    border-radius: 5px;
+}
+@media (max-width: 992px) {
+    #prices {
+      max-width: 60%;
+      margin: 0 auto 30px auto;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #prices {
+      max-width: 80%;
+      margin: 0 auto 30px auto;
+    }
+  }
+  
+  @media (max-width: 420px) {
+    #prices {
+      max-width: 100%;
+      margin: 0 auto 30px auto;
+    }
+  }
+  
+
+  #prices h4{
+    color: #37517e;
+    font-size: 140%;
+  }
+
+  #prices .h1{
+   font-size: 150%;
+  }
+
+  #prices .h1 span{
+   
+    font-size: 220%;
+  }
+
+  #prices h3{
+    color: #47b2e4;
+    display: block;
+    font-size: 18px;
+  }
+
+  #mark svg{
+    color: #28a745;
+    font-size: 20px;
+    padding-right: 10px;
+  }
+
+  #mark p{
+    color: #999;
+  }
+
+  #cross{
+    color: #ccc;
+  }
+
+  #cross svg{
+    font-size: 20px;
+    padding-right: 10px;
+  }
+
+  #cross p{
+    text-decoration:line-through ;
+  }
+
+  #prices a{
+    color:#47b2e4 ;
+    border:1px solid #47b2e4;
+    border-radius: 30px;
+    padding: 15px 40px;
+    background: white;
+    transition: 0.3s ease-in-out;
+  }
+
+  #prices a:hover{
+    background: #47b2e4;
+    transition: 0.3s ease-in-out;
+    color: white;
+  }
+
+  #blue_button{
+    color:#fff !important;
+    border-radius: 30px !important;
+    padding: 15px 40px !important;
+    background: #47b2e4 !important;
+    transition: 0.3s ease-in-out !important;
+  }
