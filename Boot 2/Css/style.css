@@ -36,14 +36,19 @@ a{
     color: white;
 }
 
-#nav-link{
+#nav-item button a{
     color: white;
     transition: 0.3s ease-in-out;
 }
 
-#nav-link:hover{
+#nav-item button a:hover{
     color: blue;
     transition: 0.3s ease-in-out;
+}
+
+#nav-item button{
+    background:transparent;
+    border: none;
 }
 
 #getstarted{
@@ -281,21 +286,20 @@ a{
    margin-right: auto;
 }
 
-#port_button:hover {
+#port_button button{
+    padding: 10px 20px;
+    transition: 0.5s ease-in-out;
+}
+#port_button button:focus {
     background: #47b2e4;
-    transition: 0.3s ease-in-out;
+    color: white;
+    transition: 0.5s ease-in-out;
     border-radius: 25px;
 }
 
 #mk button{
     background: transparent;
     border: none;
-}
-#port_button:hover #mk button{
-   
-    color: white;
-    transition: 0.3s ease-in-out;
-   
 }
 
 #port_images_all{
@@ -641,4 +645,123 @@ a{
     width: 15%;
    margin-left: auto;
    margin-right: auto;
+}
+
+#contact1{
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+}
+
+#contact_font {
+    color: #47b2e4;
+    font-size: 20px;
+    border-radius: 100%;
+    background: #e7f5fb;
+    transition: 0.3s ease-in-out;
+}
+
+#contact_font:hover{
+    background: #47b2e4;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+#contact_Dtls h3{
+    color: #37517e;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+#contact_Dtls p{
+    color: #47b2e4;
+    font-size: 14px;
+}
+
+#contact2{
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+}
+
+#contact input{
+    color: #212529;
+    border: 1px solid #ced4da;
+}
+
+#contact label{
+    font-size: 17px;
+}
+
+#contact_input{
+    width: 100%;
+}
+
+#maras1{
+   width: 50%;
+}
+
+#mara1{
+    width: 95%;
+}
+
+#maras2{
+   width: 50%;   
+}
+
+#maras2 label{
+    margin-left: 5%;
+}
+#mara2{
+    width: 95%;
+    margin-left: 5%;
+}
+
+#contact2 #mara3{
+    width: 100%;
+}
+
+#contact2 textarea{
+    width: 100%;
+    color: #212529;
+    border: 1px solid #ced4da;
+}
+
+#contact2 a{
+    background: #47b2e4;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    color:white ;
+}
+
+#newsletter{
+    background: #f3f5fa;
+}
+
+#newsletter .h1{
+    color: #37517e;
+}
+
+.news-input input{
+    border-radius: 50px;
+}
+.news-input button{
+    background: #47b2e4;
+    color: white;
+    border-radius: 50px;
+}
+
+@media (min-width: 1000px) {
+    #news_letter {
+      max-width: 50%;
+      margin: 0 auto 30px auto;
+    }
+}
+
+#prefooter{
+    background: #fff;
 }
