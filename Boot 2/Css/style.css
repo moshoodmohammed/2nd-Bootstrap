@@ -765,3 +765,36 @@ a{
 #prefooter{
     background: #fff;
 }
+
+#prefooter h3{
+    color: #37517e;
+}
+
+#prefooter h5{
+    color: #37517e;
+    font-size: 16px;
+}
+
+#prefooter svg{
+    color: #47b2e4;
+    font-size: 13px;
+}
+
+#prefooter p{
+    font-size: 14px;
+}
+
+#prefoot4 h5{
+    font-size: 19px;
+}
+
+#prefoot4 p{
+    font-size: 15px;
+}
+
+#prefoot4 svg{
+    font-size: 17px;
+    color: white;
+    background: #47b2e4;
+    border-radius: 100%;
+}
