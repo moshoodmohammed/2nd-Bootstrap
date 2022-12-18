@@ -26,6 +26,10 @@ a{
     background: rgba(40, 58, 90, 0.9);
 }
 
+#main_navbar2{
+    background: rgba(40, 58, 90, 0.9);
+}
+
 
 
 #logo{
@@ -594,7 +598,7 @@ a{
     transition: 0.3s ease-in-out !important;
   }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     #faqs {
       max-width: 80%;
       margin: 0 auto 30px auto;
@@ -755,7 +759,7 @@ a{
     border-radius: 50px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
     #news_letter {
       max-width: 50%;
       margin: 0 auto 30px auto;
@@ -797,4 +801,64 @@ a{
     color: white;
     background: #47b2e4;
     border-radius: 100%;
+}
+
+#blanks{
+    height: 100px;
+    width: 100%;
+    background: #0c63e4;
+}
+
+#header{
+    background: #f3f5fa;
+    padding-top: 80px;
+}
+
+#header a{
+    color: #0c63e4;
+}
+
+#header p{
+    font-size: 15px;
+    padding: 0;
+}
+
+#header h1{
+    font-size: 28px;
+    color: #37517e;
+    font-weight: 700;
+    padding: 0;
+}
+
+#port_dtls{
+    background: white;
+}
+
+#port_inform{
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+#port_inform h2{
+    font-size: 23px;
+    border-bottom: 1px solid #eee;
+}
+
+#port_inform p{
+    font-size: 16px;
+}
+
+#port_inform span{
+    color: #47b2e4;
+}
+
+.whole{
+    width: 100% !important;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whole img{
+    width: 100%;
+   
 }
